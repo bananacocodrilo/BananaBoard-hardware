@@ -1,0 +1,1595 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bananaboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KEYSW K-21
+U 1 1 5B38B6E0
+P 1800 1600
+F 0 "K-21" H 1800 1500 60  0000 C CNN
+F 1 "KEYSW" H 1800 1500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1800 1600 60  0001 C CNN
+F 3 "" H 1800 1600 60  0000 C CNN
+	1    1800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-11
+U 1 1 5B38B75C
+P 1800 1000
+F 0 "K-11" H 1800 900 60  0000 C CNN
+F 1 "KEYSW" H 1800 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1800 1000 60  0001 C CNN
+F 3 "" H 1800 1000 60  0000 C CNN
+	1    1800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-31
+U 1 1 5B38B7A2
+P 1800 2200
+F 0 "K-31" H 1800 2100 60  0000 C CNN
+F 1 "KEYSW" H 1800 2100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1800 2200 60  0001 C CNN
+F 3 "" H 1800 2200 60  0000 C CNN
+	1    1800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-41
+U 1 1 5B38B7DD
+P 1800 2800
+F 0 "K-41" H 1800 2700 60  0000 C CNN
+F 1 "KEYSW" H 1800 2700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1800 2800 60  0001 C CNN
+F 3 "" H 1800 2800 60  0000 C CNN
+	1    1800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D11
+U 1 1 5B38B976
+P 1300 1150
+F 0 "D11" H 1300 1250 50  0000 C CNN
+F 1 "D" H 1300 1050 50  0000 C CNN
+F 2 "footprints:DIODE" H 1300 1150 50  0001 C CNN
+F 3 "" H 1300 1150 50  0001 C CNN
+	1    1300 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D21
+U 1 1 5B38BBEF
+P 1300 1750
+F 0 "D21" H 1300 1850 50  0000 C CNN
+F 1 "D" H 1300 1650 50  0000 C CNN
+F 2 "footprints:DIODE" H 1300 1750 50  0001 C CNN
+F 3 "" H 1300 1750 50  0001 C CNN
+	1    1300 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D31
+U 1 1 5B38BC38
+P 1300 2350
+F 0 "D31" H 1300 2450 50  0000 C CNN
+F 1 "D" H 1300 2250 50  0000 C CNN
+F 2 "footprints:DIODE" H 1300 2350 50  0001 C CNN
+F 3 "" H 1300 2350 50  0001 C CNN
+	1    1300 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K-12
+U 1 1 5B38BE5F
+P 2950 1000
+F 0 "K-12" H 2950 900 60  0000 C CNN
+F 1 "KEYSW" H 2950 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2950 1000 60  0001 C CNN
+F 3 "" H 2950 1000 60  0000 C CNN
+	1    2950 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-42
+U 1 1 5B38BE6B
+P 2950 2800
+F 0 "K-42" H 2950 2700 60  0000 C CNN
+F 1 "KEYSW" H 2950 2700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2950 2800 60  0001 C CNN
+F 3 "" H 2950 2800 60  0000 C CNN
+	1    2950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D22
+U 1 1 5B38BE7F
+P 2450 1750
+F 0 "D22" H 2450 1850 50  0000 C CNN
+F 1 "D" H 2450 1650 50  0000 C CNN
+F 2 "footprints:DIODE" H 2450 1750 50  0001 C CNN
+F 3 "" H 2450 1750 50  0001 C CNN
+	1    2450 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D32
+U 1 1 5B38BE88
+P 2450 2350
+F 0 "D32" H 2450 2450 50  0000 C CNN
+F 1 "D" H 2450 2250 50  0000 C CNN
+F 2 "footprints:DIODE" H 2450 2350 50  0001 C CNN
+F 3 "" H 2450 2350 50  0001 C CNN
+	1    2450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D42
+U 1 1 5B38BE91
+P 2450 2950
+F 0 "D42" H 2450 3050 50  0000 C CNN
+F 1 "D" H 2450 2850 50  0000 C CNN
+F 2 "footprints:DIODE" H 2450 2950 50  0001 C CNN
+F 3 "" H 2450 2950 50  0001 C CNN
+	1    2450 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K-23
+U 1 1 5B38C66F
+P 4100 1600
+F 0 "K-23" H 4100 1500 60  0000 C CNN
+F 1 "KEYSW" H 4100 1500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4100 1600 60  0001 C CNN
+F 3 "" H 4100 1600 60  0000 C CNN
+	1    4100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-13
+U 1 1 5B38C675
+P 4100 1000
+F 0 "K-13" H 4100 900 60  0000 C CNN
+F 1 "KEYSW" H 4100 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4100 1000 60  0001 C CNN
+F 3 "" H 4100 1000 60  0000 C CNN
+	1    4100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-33
+U 1 1 5B38C67B
+P 4100 2200
+F 0 "K-33" H 4100 2100 60  0000 C CNN
+F 1 "KEYSW" H 4100 2100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4100 2200 60  0001 C CNN
+F 3 "" H 4100 2200 60  0000 C CNN
+	1    4100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-43
+U 1 1 5B38C681
+P 4100 2800
+F 0 "K-43" H 4100 2700 60  0000 C CNN
+F 1 "KEYSW" H 4100 2700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4100 2800 60  0001 C CNN
+F 3 "" H 4100 2800 60  0000 C CNN
+	1    4100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D13
+U 1 1 5B38C68B
+P 3600 1150
+F 0 "D13" H 3600 1250 50  0000 C CNN
+F 1 "D" H 3600 1050 50  0000 C CNN
+F 2 "footprints:DIODE" H 3600 1150 50  0001 C CNN
+F 3 "" H 3600 1150 50  0001 C CNN
+	1    3600 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D23
+U 1 1 5B38C694
+P 3600 1750
+F 0 "D23" H 3600 1850 50  0000 C CNN
+F 1 "D" H 3600 1650 50  0000 C CNN
+F 2 "footprints:DIODE" H 3600 1750 50  0001 C CNN
+F 3 "" H 3600 1750 50  0001 C CNN
+	1    3600 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D33
+U 1 1 5B38C69C
+P 3600 2350
+F 0 "D33" H 3600 2450 50  0000 C CNN
+F 1 "D" H 3600 2250 50  0000 C CNN
+F 2 "footprints:DIODE" H 3600 2350 50  0001 C CNN
+F 3 "" H 3600 2350 50  0001 C CNN
+	1    3600 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D43
+U 1 1 5B38C6A4
+P 3600 2950
+F 0 "D43" H 3600 3050 50  0000 C CNN
+F 1 "D" H 3600 2850 50  0000 C CNN
+F 2 "footprints:DIODE" H 3600 2950 50  0001 C CNN
+F 3 "" H 3600 2950 50  0001 C CNN
+	1    3600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K-24
+U 1 1 5B38CA24
+P 5250 1600
+F 0 "K-24" H 5250 1500 60  0000 C CNN
+F 1 "KEYSW" H 5250 1500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 1600 60  0001 C CNN
+F 3 "" H 5250 1600 60  0000 C CNN
+	1    5250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-14
+U 1 1 5B38CA2A
+P 5250 1000
+F 0 "K-14" H 5250 900 60  0000 C CNN
+F 1 "KEYSW" H 5250 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 1000 60  0001 C CNN
+F 3 "" H 5250 1000 60  0000 C CNN
+	1    5250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-34
+U 1 1 5B38CA30
+P 5250 2200
+F 0 "K-34" H 5250 2100 60  0000 C CNN
+F 1 "KEYSW" H 5250 2100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 2200 60  0001 C CNN
+F 3 "" H 5250 2200 60  0000 C CNN
+	1    5250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-44
+U 1 1 5B38CA36
+P 5250 2800
+F 0 "K-44" H 5250 2700 60  0000 C CNN
+F 1 "KEYSW" H 5250 2700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 2800 60  0001 C CNN
+F 3 "" H 5250 2800 60  0000 C CNN
+	1    5250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D14
+U 1 1 5B38CA40
+P 4750 1150
+F 0 "D14" H 4750 1250 50  0000 C CNN
+F 1 "D" H 4750 1050 50  0000 C CNN
+F 2 "footprints:DIODE" H 4750 1150 50  0001 C CNN
+F 3 "" H 4750 1150 50  0001 C CNN
+	1    4750 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D24
+U 1 1 5B38CA49
+P 4750 1750
+F 0 "D24" H 4750 1850 50  0000 C CNN
+F 1 "D" H 4750 1650 50  0000 C CNN
+F 2 "footprints:DIODE" H 4750 1750 50  0001 C CNN
+F 3 "" H 4750 1750 50  0001 C CNN
+	1    4750 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D34
+U 1 1 5B38CA51
+P 4750 2350
+F 0 "D34" H 4750 2450 50  0000 C CNN
+F 1 "D" H 4750 2250 50  0000 C CNN
+F 2 "footprints:DIODE" H 4750 2350 50  0001 C CNN
+F 3 "" H 4750 2350 50  0001 C CNN
+	1    4750 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D44
+U 1 1 5B38CA59
+P 4750 2950
+F 0 "D44" H 4750 3050 50  0000 C CNN
+F 1 "D" H 4750 2850 50  0000 C CNN
+F 2 "footprints:DIODE" H 4750 2950 50  0001 C CNN
+F 3 "" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2200 600  0    60   Input ~ 0
+col-1
+Text GLabel 3350 600  0    60   Input ~ 0
+col-2
+Text GLabel 4500 600  0    60   Input ~ 0
+col-3
+Text GLabel 5650 600  0    60   Input ~ 0
+col-4
+Text GLabel 1000 2000 0    60   Input ~ 0
+row-2
+Text GLabel 1000 2600 0    60   Input ~ 0
+row-3
+Text GLabel 1000 3200 0    60   Input ~ 0
+row-4
+$Comp
+L KEYSW K-25
+U 1 1 5B38EF34
+P 6450 1600
+F 0 "K-25" H 6450 1500 60  0000 C CNN
+F 1 "KEYSW" H 6450 1500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6450 1600 60  0001 C CNN
+F 3 "" H 6450 1600 60  0000 C CNN
+	1    6450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-15
+U 1 1 5B38EF3A
+P 6450 1000
+F 0 "K-15" H 6450 900 60  0000 C CNN
+F 1 "KEYSW" H 6450 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6450 1000 60  0001 C CNN
+F 3 "" H 6450 1000 60  0000 C CNN
+	1    6450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-35
+U 1 1 5B38EF40
+P 6450 2200
+F 0 "K-35" H 6450 2100 60  0000 C CNN
+F 1 "KEYSW" H 6450 2100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6450 2200 60  0001 C CNN
+F 3 "" H 6450 2200 60  0000 C CNN
+	1    6450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-45
+U 1 1 5B38EF46
+P 6450 2800
+F 0 "K-45" H 6450 2700 60  0000 C CNN
+F 1 "KEYSW" H 6450 2700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6450 2800 60  0001 C CNN
+F 3 "" H 6450 2800 60  0000 C CNN
+	1    6450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D15
+U 1 1 5B38EF50
+P 5950 1150
+F 0 "D15" H 5950 1250 50  0000 C CNN
+F 1 "D" H 5950 1050 50  0000 C CNN
+F 2 "footprints:DIODE" H 5950 1150 50  0001 C CNN
+F 3 "" H 5950 1150 50  0001 C CNN
+	1    5950 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D25
+U 1 1 5B38EF57
+P 5950 1750
+F 0 "D25" H 5950 1850 50  0000 C CNN
+F 1 "D" H 5950 1650 50  0000 C CNN
+F 2 "footprints:DIODE" H 5950 1750 50  0001 C CNN
+F 3 "" H 5950 1750 50  0001 C CNN
+	1    5950 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D35
+U 1 1 5B38EF5E
+P 5950 2350
+F 0 "D35" H 5950 2450 50  0000 C CNN
+F 1 "D" H 5950 2250 50  0000 C CNN
+F 2 "footprints:DIODE" H 5950 2350 50  0001 C CNN
+F 3 "" H 5950 2350 50  0001 C CNN
+	1    5950 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D45
+U 1 1 5B38EF65
+P 5950 2950
+F 0 "D45" H 5950 3050 50  0000 C CNN
+F 1 "D" H 5950 2850 50  0000 C CNN
+F 2 "footprints:DIODE" H 5950 2950 50  0001 C CNN
+F 3 "" H 5950 2950 50  0001 C CNN
+	1    5950 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K-26
+U 1 1 5B38EF6C
+P 7600 1600
+F 0 "K-26" H 7600 1500 60  0000 C CNN
+F 1 "KEYSW" H 7600 1500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7600 1600 60  0001 C CNN
+F 3 "" H 7600 1600 60  0000 C CNN
+	1    7600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-16
+U 1 1 5B38EF72
+P 7600 1000
+F 0 "K-16" H 7600 900 60  0000 C CNN
+F 1 "KEYSW" H 7600 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7600 1000 60  0001 C CNN
+F 3 "" H 7600 1000 60  0000 C CNN
+	1    7600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-36
+U 1 1 5B38EF78
+P 7600 2200
+F 0 "K-36" H 7600 2100 60  0000 C CNN
+F 1 "KEYSW" H 7600 2100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7600 2200 60  0001 C CNN
+F 3 "" H 7600 2200 60  0000 C CNN
+	1    7600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-46
+U 1 1 5B38EF7E
+P 7600 2800
+F 0 "K-46" H 7600 2700 60  0000 C CNN
+F 1 "KEYSW" H 7600 2700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7600 2800 60  0001 C CNN
+F 3 "" H 7600 2800 60  0000 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D16
+U 1 1 5B38EF88
+P 7100 1150
+F 0 "D16" H 7100 1250 50  0000 C CNN
+F 1 "D" H 7100 1050 50  0000 C CNN
+F 2 "footprints:DIODE" H 7100 1150 50  0001 C CNN
+F 3 "" H 7100 1150 50  0001 C CNN
+	1    7100 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D26
+U 1 1 5B38EF8F
+P 7100 1750
+F 0 "D26" H 7100 1850 50  0000 C CNN
+F 1 "D" H 7100 1650 50  0000 C CNN
+F 2 "footprints:DIODE" H 7100 1750 50  0001 C CNN
+F 3 "" H 7100 1750 50  0001 C CNN
+	1    7100 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D36
+U 1 1 5B38EF96
+P 7100 2350
+F 0 "D36" H 7100 2450 50  0000 C CNN
+F 1 "D" H 7100 2250 50  0000 C CNN
+F 2 "footprints:DIODE" H 7100 2350 50  0001 C CNN
+F 3 "" H 7100 2350 50  0001 C CNN
+	1    7100 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D46
+U 1 1 5B38EF9D
+P 7100 2950
+F 0 "D46" H 7100 3050 50  0000 C CNN
+F 1 "D" H 7100 2850 50  0000 C CNN
+F 2 "footprints:DIODE" H 7100 2950 50  0001 C CNN
+F 3 "" H 7100 2950 50  0001 C CNN
+	1    7100 2950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3850 7500 2    55   Input ~ 0
+row-4
+Text GLabel 3850 5800 2    55   Input ~ 0
+row-1
+Text GLabel 3850 6800 2    55   Input ~ 0
+row-2
+Text GLabel 3850 7300 2    55   Input ~ 0
+row-3
+Text GLabel 3800 6500 2    55   Input ~ 0
+col-1
+Text GLabel 3800 6900 2    55   Input ~ 0
+col-2
+Text GLabel 3800 6600 2    55   Input ~ 0
+col-3
+Text GLabel 1350 7000 0    55   Input ~ 0
+col-4
+$Comp
+L WS2812B LED1
+U 1 1 5B394222
+P 10400 4050
+F 0 "LED1" H 10400 3650 60  0000 C CNN
+F 1 "WS2812B" H 10400 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 10350 4050 60  0001 C CNN
+F 3 "" V 10350 4050 60  0000 C CNN
+	1    10400 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1250 6800 0    55   Input ~ 0
+VCC
+Text GLabel 1250 6900 0    55   Input ~ 0
+GND
+Text GLabel 10900 4250 2    55   Input ~ 0
+GND
+Text GLabel 9900 3800 1    55   Input ~ 0
+VCC
+Text GLabel 1300 6200 0    55   Input ~ 0
+underglow
+$Comp
+L core51822 U2
+U 1 1 5B391A64
+P 2600 6550
+F 0 "U2" H 2550 5950 60  0000 C CNN
+F 1 "core51822" H 2600 6550 60  0000 C CNN
+F 2 "MisComponentes:core51822-through-hole" H 2600 6550 60  0001 C CNN
+F 3 "" H 2600 6550 60  0001 C CNN
+	1    2600 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 11400 3650 1    55   Input ~ 0
+underglow
+$Comp
+L R R1
+U 1 1 5B3985CC
+P 11050 3850
+F 0 "R1" V 11130 3850 50  0000 C CNN
+F 1 "470" V 11050 3850 50  0000 C CNN
+F 2 "footprints:RESISTOR" V 10980 3850 50  0001 C CNN
+F 3 "" H 11050 3850 50  0001 C CNN
+	1    11050 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L WS2812B LED2
+U 1 1 5B39A611
+P 9250 4050
+F 0 "LED2" H 9250 3650 60  0000 C CNN
+F 1 "WS2812B" H 9250 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 9200 4050 60  0001 C CNN
+F 3 "" V 9200 4050 60  0000 C CNN
+	1    9250 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 4250 3    55   Input ~ 0
+GND
+Text GLabel 8750 3800 1    55   Input ~ 0
+VCC
+$Comp
+L WS2812B LED3
+U 1 1 5B39B845
+P 8100 4050
+F 0 "LED3" H 8100 3650 60  0000 C CNN
+F 1 "WS2812B" H 8100 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 8050 4050 60  0001 C CNN
+F 3 "" V 8050 4050 60  0000 C CNN
+	1    8100 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 4250 3    55   Input ~ 0
+GND
+Text GLabel 7600 3800 1    55   Input ~ 0
+VCC
+$Comp
+L WS2812B LED4
+U 1 1 5B39B9E9
+P 6950 4050
+F 0 "LED4" H 6950 3650 60  0000 C CNN
+F 1 "WS2812B" H 6950 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 6900 4050 60  0001 C CNN
+F 3 "" V 6900 4050 60  0000 C CNN
+	1    6950 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7450 4250 3    55   Input ~ 0
+GND
+Text GLabel 6450 3800 1    55   Input ~ 0
+VCC
+$Comp
+L WS2812B LED5
+U 1 1 5B39B9F4
+P 5800 4050
+F 0 "LED5" H 5800 3650 60  0000 C CNN
+F 1 "WS2812B" H 5800 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 5750 4050 60  0001 C CNN
+F 3 "" V 5750 4050 60  0000 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 4250 3    55   Input ~ 0
+GND
+Text GLabel 5300 3800 1    55   Input ~ 0
+VCC
+$Comp
+L WS2812B LED6
+U 1 1 5B39FA52
+P 4650 4050
+F 0 "LED6" H 4650 3650 60  0000 C CNN
+F 1 "WS2812B" H 4650 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 4600 4050 60  0001 C CNN
+F 3 "" V 4600 4050 60  0000 C CNN
+	1    4650 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 4250 3    55   Input ~ 0
+GND
+Text GLabel 4150 3800 1    55   Input ~ 0
+VCC
+$Comp
+L WS2812B LED7
+U 1 1 5B39FA5D
+P 3500 4050
+F 0 "LED7" H 3500 3650 60  0000 C CNN
+F 1 "WS2812B" H 3500 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 3450 4050 60  0001 C CNN
+F 3 "" V 3450 4050 60  0000 C CNN
+	1    3500 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 4250 3    55   Input ~ 0
+GND
+Text GLabel 3000 3800 1    55   Input ~ 0
+VCC
+$Comp
+L WS2812B LED8
+U 1 1 5B39FA68
+P 2350 4050
+F 0 "LED8" H 2350 3650 60  0000 C CNN
+F 1 "WS2812B" H 2350 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 2300 4050 60  0001 C CNN
+F 3 "" V 2300 4050 60  0000 C CNN
+	1    2350 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 4250 3    55   Input ~ 0
+GND
+Text GLabel 1850 3800 1    55   Input ~ 0
+VCC
+NoConn ~ 1650 6700
+NoConn ~ 1650 6600
+NoConn ~ 1650 6500
+NoConn ~ 1650 6400
+NoConn ~ 1650 6300
+NoConn ~ 3500 5900
+NoConn ~ 3500 6000
+NoConn ~ 3500 6100
+NoConn ~ 3500 6400
+NoConn ~ 3500 7200
+NoConn ~ 3500 7100
+Text GLabel 11000 2050 2    55   Input ~ 0
+VCC
+Text GLabel 9500 2700 0    55   Input ~ 0
+GND
+$Comp
+L C C2
+U 1 1 5B39F249
+P 8650 950
+F 0 "C2" H 8675 1050 50  0000 L CNN
+F 1 "0.1uF" H 8675 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8688 800 50  0001 C CNN
+F 3 "" H 8650 950 50  0001 C CNN
+	1    8650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5B39F300
+P 8950 950
+F 0 "C3" H 8975 1050 50  0000 L CNN
+F 1 "0.1uF" H 8975 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8988 800 50  0001 C CNN
+F 3 "" H 8950 950 50  0001 C CNN
+	1    8950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5B39F39F
+P 9250 950
+F 0 "C4" H 9275 1050 50  0000 L CNN
+F 1 "0.1uF" H 9275 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9288 800 50  0001 C CNN
+F 3 "" H 9250 950 50  0001 C CNN
+	1    9250 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5B3A012A
+P 9550 950
+F 0 "C5" H 9575 1050 50  0000 L CNN
+F 1 "0.1uF" H 9575 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9588 800 50  0001 C CNN
+F 3 "" H 9550 950 50  0001 C CNN
+	1    9550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5B3A0130
+P 9850 950
+F 0 "C6" H 9875 1050 50  0000 L CNN
+F 1 "0.1uF" H 9875 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9888 800 50  0001 C CNN
+F 3 "" H 9850 950 50  0001 C CNN
+	1    9850 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 5B3A0136
+P 10150 950
+F 0 "C7" H 10175 1050 50  0000 L CNN
+F 1 "0.1uF" H 10175 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10188 800 50  0001 C CNN
+F 3 "" H 10150 950 50  0001 C CNN
+	1    10150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 5B3A06AD
+P 10450 950
+F 0 "C8" H 10475 1050 50  0000 L CNN
+F 1 "0.1uF" H 10475 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10488 800 50  0001 C CNN
+F 3 "" H 10450 950 50  0001 C CNN
+	1    10450 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 8250 600  2    55   Input ~ 0
+VCC
+Text GLabel 10750 1350 3    55   Input ~ 0
+GND
+$Comp
+L WS2812B LED9
+U 1 1 5B3C0C96
+P 1200 4050
+F 0 "LED9" H 1200 3650 60  0000 C CNN
+F 1 "WS2812B" H 1200 4450 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 1150 4050 60  0001 C CNN
+F 3 "" V 1150 4050 60  0000 C CNN
+	1    1200 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 4250 3    55   Input ~ 0
+GND
+Text GLabel 700  3800 1    55   Input ~ 0
+VCC
+$Comp
+L D D41
+U 1 1 5B38BC6C
+P 1300 2950
+F 0 "D41" H 1300 3050 50  0000 C CNN
+F 1 "D" H 1300 2850 50  0000 C CNN
+F 2 "footprints:DIODE" H 1300 2950 50  0001 C CNN
+F 3 "" H 1300 2950 50  0001 C CNN
+	1    1300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K-22
+U 1 1 5B38BE59
+P 2950 1600
+F 0 "K-22" H 2950 1500 60  0000 C CNN
+F 1 "KEYSW" H 2950 1500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2950 1600 60  0001 C CNN
+F 3 "" H 2950 1600 60  0000 C CNN
+	1    2950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K-32
+U 1 1 5B38BE65
+P 2950 2200
+F 0 "K-32" H 2950 2100 60  0000 C CNN
+F 1 "KEYSW" H 2950 2100 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2950 2200 60  0001 C CNN
+F 3 "" H 2950 2200 60  0000 C CNN
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D12
+U 1 1 5B38BE75
+P 2450 1150
+F 0 "D12" H 2450 1250 50  0000 C CNN
+F 1 "D" H 2450 1050 50  0000 C CNN
+F 2 "footprints:DIODE" H 2450 1150 50  0001 C CNN
+F 3 "" H 2450 1150 50  0001 C CNN
+	1    2450 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5B3A2626
+P 8250 950
+F 0 "C1" H 8275 1050 50  0000 L CNN
+F 1 "47uF" H 8275 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8288 800 50  0001 C CNN
+F 3 "" H 8250 950 50  0001 C CNN
+	1    8250 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  1400 0    60   Input ~ 0
+row-1
+$Comp
+L cargador-USB U1
+U 1 1 5B3A18FF
+P 8800 2100
+F 0 "U1" H 8800 1800 55  0000 C CNN
+F 1 "cargador-USB" H 8800 2100 55  0000 C CNN
+F 2 "MisComponentes:cargador-mini-usb" H 8800 2100 55  0001 C CNN
+F 3 "" H 8800 2100 55  0001 C CNN
+	1    8800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 5B3A06B3
+P 10750 950
+F 0 "C9" H 10775 1050 50  0000 L CNN
+F 1 "0.1uF" H 10775 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10788 800 50  0001 C CNN
+F 3 "" H 10750 950 50  0001 C CNN
+	1    10750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 5B3CF282
+P 11000 950
+F 0 "C10" H 11025 1050 50  0000 L CNN
+F 1 "0.1uF" H 11025 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 11038 800 50  0001 C CNN
+F 3 "" H 11000 950 50  0001 C CNN
+	1    11000 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 600  0    60   Input ~ 0
+col-6
+Text GLabel 6850 600  0    60   Input ~ 0
+col-5
+Text GLabel 1350 7500 0    60   Input ~ 0
+col-6
+Text GLabel 1350 7400 0    60   Input ~ 0
+col-5
+$Comp
+L Conn_01x04_Male J1
+U 1 1 5B3F243D
+P 5050 6300
+F 0 "J1" H 5050 6500 50  0000 C CNN
+F 1 "prog_pins" H 5050 6000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5050 6300 50  0001 C CNN
+F 3 "" H 5050 6300 50  0001 C CNN
+	1    5050 6300
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 6400 0    55   Input ~ 0
+VCC
+$Comp
+L R Rbat1
+U 1 1 5B3F5C94
+P 9850 2150
+F 0 "Rbat1" V 9930 2150 50  0000 C CNN
+F 1 "10M" V 9850 2150 50  0000 C CNN
+F 2 "footprints:RESISTOR" V 9780 2150 50  0001 C CNN
+F 3 "" H 9850 2150 50  0001 C CNN
+	1    9850 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R Rbat2
+U 1 1 5B3F63F9
+P 9850 2550
+F 0 "Rbat2" V 9930 2550 50  0000 C CNN
+F 1 "2.2M" V 9850 2550 50  0000 C CNN
+F 2 "footprints:RESISTOR" V 9780 2550 50  0001 C CNN
+F 3 "" H 9850 2550 50  0001 C CNN
+	1    9850 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C Cbat1
+U 1 1 5B3F67F6
+P 10100 2550
+F 0 "Cbat1" H 10125 2650 50  0000 L CNN
+F 1 "22n" H 10125 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10138 2400 50  0001 C CNN
+F 3 "" H 10100 2550 50  0001 C CNN
+	1    10100 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5B3F78E9
+P 10700 2700
+F 0 "#PWR01" H 10700 2450 50  0001 C CNN
+F 1 "GND" H 10700 2550 50  0000 C CNN
+F 2 "" H 10700 2700 50  0001 C CNN
+F 3 "" H 10700 2700 50  0001 C CNN
+	1    10700 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 10100 2400 2    60   Input ~ 0
+BAT-M
+$Comp
+L LM1117-3.3 U3
+U 1 1 5B39628E
+P 10700 2050
+F 0 "U3" H 10550 2175 50  0000 C CNN
+F 1 "LM1117-3.3" H 10700 2175 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 10700 2050 50  0001 C CNN
+F 3 "" H 10700 2050 50  0001 C CNN
+	1    10700 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 7400 2    55   Input ~ 0
+BAT-M
+$Comp
+L LED_ARGB D1
+U 1 1 5B3F8597
+P 6100 6050
+F 0 "D1" H 6100 6420 50  0000 C CNN
+F 1 "LED_BAT" H 6100 5700 50  0000 C CNN
+F 2 "LEDs:LED_RGB_1210" H 6100 6000 50  0001 C CNN
+F 3 "" H 6100 6000 50  0001 C CNN
+	1    6100 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R Rled1
+U 1 1 5B3F8650
+P 6550 6050
+F 0 "Rled1" V 6630 6050 50  0000 C CNN
+F 1 "470" V 6550 6050 50  0000 C CNN
+F 2 "footprints:RESISTOR" V 6480 6050 50  0001 C CNN
+F 3 "" H 6550 6050 50  0001 C CNN
+	1    6550 6050
+	0    1    1    0   
+$EndComp
+Text GLabel 6700 6050 2    55   Input ~ 0
+GND
+Text GLabel 5900 6250 0    60   Input ~ 0
+LED-B
+Text GLabel 5900 6050 0    60   Input ~ 0
+LED-G
+Text GLabel 5900 5850 0    60   Input ~ 0
+LED-R
+$Comp
+L SW_PUSH SW-RESET1
+U 1 1 5B3FEF32
+P 4650 5800
+F 0 "SW-RESET1" H 4800 5910 50  0000 C CNN
+F 1 "SW_PUSH" H 4650 5720 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 4650 5800 60  0001 C CNN
+F 3 "" H 4650 5800 60  0000 C CNN
+	1    4650 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 6200 0    55   Input ~ 0
+GND
+Text GLabel 4950 5800 2    55   Input ~ 0
+GND
+Text GLabel 1400 5900 0    55   Input ~ 0
+LED-B
+Text GLabel 1400 6100 0    55   Input ~ 0
+LED-G
+Text GLabel 1400 6000 0    55   Input ~ 0
+LED-R
+$Comp
+L Conn_01x01 J2
+U 1 1 5B40727E
+P 5500 7200
+F 0 "J2" H 5500 7300 50  0000 C CNN
+F 1 "Conn_01x01" H 5500 7100 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 5500 7200 50  0001 C CNN
+F 3 "" H 5500 7200 50  0001 C CNN
+	1    5500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J3
+U 1 1 5B407331
+P 5500 7500
+F 0 "J3" H 5500 7600 50  0000 C CNN
+F 1 "Conn_01x01" H 5500 7400 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 5500 7500 50  0001 C CNN
+F 3 "" H 5500 7500 50  0001 C CNN
+	1    5500 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J5
+U 1 1 5B4073F4
+P 6050 7500
+F 0 "J5" H 6050 7600 50  0000 C CNN
+F 1 "Conn_01x01" H 6050 7400 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 6050 7500 50  0001 C CNN
+F 3 "" H 6050 7500 50  0001 C CNN
+	1    6050 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J7
+U 1 1 5B407B8D
+P 6050 7200
+F 0 "J7" H 6050 7300 50  0000 C CNN
+F 1 "Conn_01x01" H 6050 7100 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 6050 7200 50  0001 C CNN
+F 3 "" H 6050 7200 50  0001 C CNN
+	1    6050 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED10
+U 1 1 5B4094AB
+P 9950 5300
+F 0 "LED10" H 9950 4900 60  0000 C CNN
+F 1 "WS2812B" H 9950 5700 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 9900 5300 60  0001 C CNN
+F 3 "" V 9900 5300 60  0000 C CNN
+	1    9950 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 5500 3    55   Input ~ 0
+GND
+Text GLabel 9450 5050 1    55   Input ~ 0
+VCC
+$Comp
+L WS2812B LED11
+U 1 1 5B4094B3
+P 8800 5300
+F 0 "LED11" H 8800 4900 60  0000 C CNN
+F 1 "WS2812B" H 8800 5700 60  0000 C CNN
+F 2 "MisComponentes:LED_RGB_5050-4" V 8750 5300 60  0001 C CNN
+F 3 "" V 8750 5300 60  0000 C CNN
+	1    8800 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 5500 3    55   Input ~ 0
+GND
+Text GLabel 8300 5050 1    55   Input ~ 0
+VCC
+NoConn ~ 8300 5500
+$Comp
+L C C11
+U 1 1 5B409B55
+P 11300 950
+F 0 "C11" H 11325 1050 50  0000 L CNN
+F 1 "0.1uF" H 11325 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 11338 800 50  0001 C CNN
+F 3 "" H 11300 950 50  0001 C CNN
+	1    11300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 5B409B5B
+P 11550 950
+F 0 "C12" H 11575 1050 50  0000 L CNN
+F 1 "0.1uF" H 11575 850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 11588 800 50  0001 C CNN
+F 3 "" H 11550 950 50  0001 C CNN
+	1    11550 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2800 4400 2800
+Wire Wire Line
+	4500 600  4500 2800
+Wire Wire Line
+	5650 2800 5550 2800
+Wire Wire Line
+	5650 600  5650 2800
+Wire Wire Line
+	6850 2800 6750 2800
+Wire Wire Line
+	7100 2000 7100 1900
+Wire Wire Line
+	1000 2000 7100 2000
+Connection ~ 3350 1000
+Wire Wire Line
+	3250 1000 3350 1000
+Connection ~ 3350 1600
+Wire Wire Line
+	3350 1600 3250 1600
+Connection ~ 3350 2200
+Wire Wire Line
+	3350 2200 3250 2200
+Wire Wire Line
+	3350 2800 3250 2800
+Wire Wire Line
+	3350 600  3350 2800
+Connection ~ 2200 1000
+Wire Wire Line
+	2100 1000 2200 1000
+Connection ~ 2200 1600
+Wire Wire Line
+	2200 1600 2100 1600
+Connection ~ 2200 2200
+Wire Wire Line
+	2200 2200 2100 2200
+Wire Wire Line
+	2200 2800 2100 2800
+Wire Wire Line
+	2200 600  2200 2800
+Connection ~ 1300 2600
+Wire Wire Line
+	1300 2500 1300 2600
+Connection ~ 1300 2000
+Wire Wire Line
+	1300 1900 1300 2000
+Wire Wire Line
+	1850 4050 1850 4250
+Wire Wire Line
+	1700 4050 1850 4050
+Wire Wire Line
+	1700 3850 1700 4050
+Wire Wire Line
+	700  3800 700  3850
+Wire Wire Line
+	10750 1100 10750 1350
+Wire Wire Line
+	8250 1150 11000 1150
+Wire Wire Line
+	8250 600  8250 800 
+Wire Wire Line
+	8250 700  10800 700 
+Wire Wire Line
+	5300 4050 5300 4250
+Wire Wire Line
+	5150 4050 5300 4050
+Wire Wire Line
+	4150 4050 4150 4250
+Wire Wire Line
+	3000 4050 3000 4250
+Wire Wire Line
+	2850 4050 3000 4050
+Wire Wire Line
+	2850 3850 2850 4050
+Wire Wire Line
+	1850 3800 1850 3850
+Wire Wire Line
+	4000 4050 4150 4050
+Wire Wire Line
+	4000 3850 4000 4050
+Wire Wire Line
+	3000 3800 3000 3850
+Wire Wire Line
+	5150 3850 5150 4050
+Wire Wire Line
+	4150 3800 4150 3850
+Wire Wire Line
+	7600 4050 7600 4250
+Wire Wire Line
+	6450 4050 6450 4250
+Wire Wire Line
+	6300 4050 6450 4050
+Wire Wire Line
+	6300 3850 6300 4050
+Wire Wire Line
+	5300 3800 5300 3850
+Wire Wire Line
+	7450 4050 7600 4050
+Wire Wire Line
+	7450 3850 7450 4050
+Wire Wire Line
+	6450 3800 6450 3850
+Wire Wire Line
+	8750 4050 8750 4250
+Wire Wire Line
+	8600 4050 8750 4050
+Wire Wire Line
+	8600 3850 8600 4050
+Wire Wire Line
+	7600 3800 7600 3850
+Wire Wire Line
+	9900 4050 9900 4250
+Wire Wire Line
+	9750 4050 9900 4050
+Wire Wire Line
+	9750 3850 9750 4050
+Wire Wire Line
+	8750 3800 8750 3850
+Wire Wire Line
+	9900 3800 9900 3850
+Wire Wire Line
+	11150 4200 11100 4200
+Wire Wire Line
+	3300 7400 3850 7400
+Wire Wire Line
+	1850 7000 1350 7000
+Wire Wire Line
+	3800 6600 3300 6600
+Wire Wire Line
+	3300 7500 3850 7500
+Wire Wire Line
+	3300 6800 3850 6800
+Wire Wire Line
+	3300 5800 3850 5800
+Wire Wire Line
+	1250 6900 1850 6900
+Wire Wire Line
+	1850 6800 1250 6800
+Wire Wire Line
+	1300 6200 1850 6200
+Wire Wire Line
+	3300 6900 3800 6900
+Wire Wire Line
+	7300 2800 7100 2800
+Wire Wire Line
+	7300 2200 7100 2200
+Wire Wire Line
+	7300 1600 7100 1600
+Wire Wire Line
+	7300 1000 7100 1000
+Wire Wire Line
+	6150 2800 5950 2800
+Wire Wire Line
+	6150 2200 5950 2200
+Wire Wire Line
+	6150 1600 5950 1600
+Wire Wire Line
+	6150 1000 5950 1000
+Wire Wire Line
+	4950 2800 4750 2800
+Wire Wire Line
+	4950 2200 4750 2200
+Wire Wire Line
+	4950 1600 4750 1600
+Wire Wire Line
+	4950 1000 4750 1000
+Wire Wire Line
+	3800 2800 3600 2800
+Wire Wire Line
+	3800 2200 3600 2200
+Wire Wire Line
+	3800 1600 3600 1600
+Wire Wire Line
+	3800 1000 3600 1000
+Wire Wire Line
+	2650 2800 2450 2800
+Wire Wire Line
+	2650 2200 2450 2200
+Wire Wire Line
+	2650 1600 2450 1600
+Wire Wire Line
+	2650 1000 2450 1000
+Wire Wire Line
+	1500 2800 1300 2800
+Wire Wire Line
+	1500 2200 1300 2200
+Wire Wire Line
+	1500 1600 1300 1600
+Wire Wire Line
+	1500 1000 1300 1000
+Wire Wire Line
+	4400 2200 4500 2200
+Connection ~ 4500 2200
+Wire Wire Line
+	4400 1600 4500 1600
+Connection ~ 4500 1600
+Wire Wire Line
+	4400 1000 4500 1000
+Connection ~ 4500 1000
+Wire Wire Line
+	5550 1000 5650 1000
+Connection ~ 5650 1000
+Wire Wire Line
+	5550 1600 5650 1600
+Connection ~ 5650 1600
+Wire Wire Line
+	5550 2200 5650 2200
+Connection ~ 5650 2200
+Wire Wire Line
+	6850 2200 6750 2200
+Connection ~ 6850 2200
+Wire Wire Line
+	6850 1600 6750 1600
+Connection ~ 6850 1600
+Wire Wire Line
+	6750 1000 6850 1000
+Connection ~ 6850 1000
+Wire Wire Line
+	5950 1900 5950 2000
+Connection ~ 5950 2000
+Wire Wire Line
+	4750 1900 4750 2000
+Connection ~ 4750 2000
+Wire Wire Line
+	3600 1900 3600 2000
+Connection ~ 3600 2000
+Wire Wire Line
+	2450 1900 2450 2000
+Connection ~ 2450 2000
+Wire Wire Line
+	1000 2600 7100 2600
+Wire Wire Line
+	7100 2600 7100 2500
+Wire Wire Line
+	3600 2500 3600 2600
+Connection ~ 3600 2600
+Wire Wire Line
+	2450 2600 2450 2500
+Connection ~ 2450 2600
+Wire Wire Line
+	4750 2600 4750 2500
+Connection ~ 4750 2600
+Wire Wire Line
+	5950 2600 5950 2500
+Connection ~ 5950 2600
+Wire Wire Line
+	8000 2800 7900 2800
+Wire Wire Line
+	8000 2200 7900 2200
+Connection ~ 8000 2200
+Wire Wire Line
+	8000 1600 7900 1600
+Connection ~ 8000 1600
+Wire Wire Line
+	7900 1000 8000 1000
+Connection ~ 8000 1000
+Wire Wire Line
+	7100 1400 7100 1300
+Wire Wire Line
+	950  1400 7100 1400
+Wire Wire Line
+	1300 1300 1300 1400
+Connection ~ 1300 1400
+Wire Wire Line
+	2450 1300 2450 1400
+Connection ~ 2450 1400
+Wire Wire Line
+	3600 1300 3600 1400
+Connection ~ 3600 1400
+Wire Wire Line
+	4750 1300 4750 1400
+Connection ~ 4750 1400
+Wire Wire Line
+	5950 1300 5950 1400
+Connection ~ 5950 1400
+Connection ~ 10750 1150
+Wire Wire Line
+	10450 1100 10450 1150
+Connection ~ 10450 1150
+Wire Wire Line
+	10150 1100 10150 1150
+Connection ~ 10150 1150
+Wire Wire Line
+	9850 1150 9850 1100
+Connection ~ 9850 1150
+Wire Wire Line
+	9550 1100 9550 1150
+Connection ~ 9550 1150
+Wire Wire Line
+	9250 1150 9250 1100
+Connection ~ 9250 1150
+Wire Wire Line
+	8950 1100 8950 1150
+Connection ~ 8950 1150
+Wire Wire Line
+	8650 1100 8650 1150
+Connection ~ 8650 1150
+Wire Wire Line
+	8250 1150 8250 1100
+Connection ~ 8250 700 
+Wire Wire Line
+	8650 800  8650 700 
+Connection ~ 8650 700 
+Wire Wire Line
+	8950 800  8950 700 
+Connection ~ 8950 700 
+Wire Wire Line
+	9250 800  9250 700 
+Connection ~ 9250 700 
+Wire Wire Line
+	9550 700  9550 800 
+Connection ~ 9550 700 
+Wire Wire Line
+	9850 800  9850 700 
+Connection ~ 9850 700 
+Wire Wire Line
+	10150 800  10150 700 
+Connection ~ 10150 700 
+Wire Wire Line
+	10450 800  10450 700 
+Connection ~ 10450 700 
+Wire Wire Line
+	10750 800  10750 700 
+Connection ~ 10750 700 
+Wire Wire Line
+	11000 800  11000 700 
+Wire Wire Line
+	10750 700  11550 700 
+Wire Wire Line
+	11000 1150 11000 1100
+Wire Wire Line
+	3800 6500 3300 6500
+Wire Wire Line
+	1000 3200 7100 3200
+Wire Wire Line
+	7100 3200 7100 3100
+Wire Wire Line
+	5950 3100 5950 3200
+Connection ~ 5950 3200
+Wire Wire Line
+	4750 3100 4750 3200
+Connection ~ 4750 3200
+Wire Wire Line
+	3600 3100 3600 3200
+Connection ~ 3600 3200
+Wire Wire Line
+	2450 3100 2450 3200
+Connection ~ 2450 3200
+Wire Wire Line
+	1300 3100 1300 3200
+Connection ~ 1300 3200
+Wire Wire Line
+	8000 600  8000 2800
+Wire Wire Line
+	6850 600  6850 2800
+Wire Wire Line
+	1850 7400 1350 7400
+Wire Wire Line
+	1850 7500 1350 7500
+Wire Wire Line
+	3300 6200 3900 6200
+Wire Wire Line
+	3900 6200 3900 6100
+Wire Wire Line
+	3900 6100 4850 6100
+Wire Wire Line
+	3300 6300 4850 6300
+Wire Wire Line
+	9150 2000 10150 2000
+Wire Wire Line
+	10100 2400 9850 2400
+Wire Wire Line
+	9850 2400 9850 2300
+Wire Wire Line
+	9500 2700 10700 2700
+Connection ~ 9850 2700
+Wire Wire Line
+	10400 2050 10150 2050
+Wire Wire Line
+	10150 2050 10150 2000
+Wire Wire Line
+	9850 2000 10000 2000
+Connection ~ 10000 2000
+Connection ~ 9850 2000
+Wire Wire Line
+	9150 2200 9500 2200
+Wire Wire Line
+	9500 2200 9500 2700
+Wire Wire Line
+	10700 2700 10700 2350
+Connection ~ 10100 2700
+Wire Wire Line
+	6300 6050 6400 6050
+Wire Wire Line
+	3850 7300 3300 7300
+Wire Wire Line
+	4350 5800 4350 6100
+Connection ~ 4350 6100
+Wire Wire Line
+	1400 5900 1850 5900
+Wire Wire Line
+	1850 6000 1400 6000
+Wire Wire Line
+	1400 6100 1850 6100
+Wire Wire Line
+	9450 5300 9450 5500
+Wire Wire Line
+	9300 5300 9450 5300
+Wire Wire Line
+	9300 5100 9300 5300
+Wire Wire Line
+	8300 5050 8300 5100
+Wire Wire Line
+	10450 5300 10600 5300
+Wire Wire Line
+	10450 5100 10450 5300
+Wire Wire Line
+	9450 5050 9450 5100
+Wire Wire Line
+	11300 700  11300 800 
+Connection ~ 11000 700 
+Wire Wire Line
+	11550 700  11550 800 
+Connection ~ 11300 700 
+Wire Wire Line
+	11000 1100 11550 1100
+Connection ~ 11300 1100
+Text GLabel 700  4250 0    60   Input ~ 0
+underglowAux
+Text GLabel 10600 5300 2    60   Input ~ 0
+underglowAux
+$Comp
+L Conn_01x02 J8
+U 1 1 5B40C926
+P 10100 1550
+F 0 "J8" H 10100 1650 50  0000 C CNN
+F 1 "Conn-Battery" H 10100 1350 50  0000 C CNN
+F 2 "Connectors_JST:JST_EH_S02B-EH_02x2.50mm_Angled" H 10100 1550 50  0001 C CNN
+F 3 "" H 10100 1550 50  0001 C CNN
+	1    10100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1550 9500 1550
+Wire Wire Line
+	9500 1550 9500 2000
+Connection ~ 9500 2000
+Text GLabel 9900 1650 0    55   Input ~ 0
+GND
+Wire Wire Line
+	11200 3850 11400 3850
+Wire Wire Line
+	11400 3850 11400 3650
+$EndSCHEMATC
