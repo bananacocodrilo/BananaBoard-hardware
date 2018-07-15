@@ -22,8 +22,11 @@ Next steps:
  - (Currently working) Measure the "let's split" pcb and modify the 40% ortho pcb to fit in the cases.
  - Investigate other lipo charger circuits. I've ordered a few cheap micro usb ones since I couldn't find reliable size info.
 
+
+Ortho 40% board:
 ![pcb image](https://raw.githubusercontent.com/bananacocodrilo/BananaBoard-hardware/master/Images/pcb.PNG)
 
 
+handwired keyboards board:
 ![handwired](https://raw.githubusercontent.com/bananacocodrilo/BananaBoard-hardware/master/Images/handwired_3D.PNG)
 
