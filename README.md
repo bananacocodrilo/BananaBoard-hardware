@@ -15,18 +15,18 @@ Current state:
 -
  - "Finished" schematic: I like how it is right now and it probably will stay like this.
  - "Finished" a first version for handwired builds (it fits in 24mmx50mm so I added 2 per board).
- - First version of the PCB: It's probably not compatible with most of the "let's split" cases but I'll order a few to use them to develop the firmware.
+ - Second version of the 40% split PCB, I think is compatible with the "lets split" case but it isn't reversible so I'll need to create the "right hand" too.
 
 Next steps: 
 -
- - (Currently working) Measure the "let's split" pcb and modify the 40% ortho pcb to fit in the cases.
+ - (Currently working) Create the right hand of the lets split.
  - Investigate other lipo charger circuits. I've ordered a few cheap micro usb ones since I couldn't find reliable size info.
 
 
-Ortho 40% board:
-![pcb image](https://raw.githubusercontent.com/bananacocodrilo/BananaBoard-hardware/master/Images/pcb.PNG)
+Ortho 40% board (left hand):
+![pcb image](https://raw.githubusercontent.com/bananacocodrilo/BananaBoard-hardware/master/Images/ortho_40_left.PNG)
 
 
-handwired keyboards board:
+Handwired keyboards board:
 ![handwired](https://raw.githubusercontent.com/bananacocodrilo/BananaBoard-hardware/master/Images/handwired_3D.PNG)
 
