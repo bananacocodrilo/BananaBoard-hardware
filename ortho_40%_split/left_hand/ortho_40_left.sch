@@ -544,21 +544,21 @@ F 3 "" H 7100 2950 50  0001 C CNN
 	1    7100 2950
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3850 7500 2    55   Input ~ 0
+Text GLabel 3850 7400 2    55   Input ~ 0
 row-4
 Text GLabel 3850 5800 2    55   Input ~ 0
 row-1
-Text GLabel 3850 6800 2    55   Input ~ 0
+Text GLabel 3800 7000 2    55   Input ~ 0
 row-2
 Text GLabel 3850 7300 2    55   Input ~ 0
 row-3
 Text GLabel 3800 6500 2    55   Input ~ 0
 col-1
-Text GLabel 3800 6900 2    55   Input ~ 0
+Text GLabel 3800 6400 2    55   Input ~ 0
 col-2
-Text GLabel 3800 6600 2    55   Input ~ 0
+Text GLabel 3800 6700 2    55   Input ~ 0
 col-3
-Text GLabel 1350 7000 0    55   Input ~ 0
+Text GLabel 3850 6800 2    55   Input ~ 0
 col-4
 $Comp
 L WS2812B LED1
@@ -579,7 +579,7 @@ Text GLabel 10900 4250 2    55   Input ~ 0
 GND
 Text GLabel 9900 3800 1    55   Input ~ 0
 VCC
-Text GLabel 1300 6200 0    55   Input ~ 0
+Text GLabel 1400 6100 0    55   Input ~ 0
 underglow
 $Comp
 L core51822 U2
@@ -714,13 +714,10 @@ NoConn ~ 1650 6700
 NoConn ~ 1650 6600
 NoConn ~ 1650 6500
 NoConn ~ 1650 6400
-NoConn ~ 1650 6300
 NoConn ~ 3500 5900
 NoConn ~ 3500 6000
 NoConn ~ 3500 6100
-NoConn ~ 3500 6400
 NoConn ~ 3500 7200
-NoConn ~ 3500 7100
 Text GLabel 11000 2050 2    55   Input ~ 0
 VCC
 Text GLabel 9500 2700 0    55   Input ~ 0
@@ -989,7 +986,7 @@ F 3 "" H 10700 2050 50  0001 C CNN
 	1    10700 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 7400 2    55   Input ~ 0
+Text GLabel 3850 7500 2    55   Input ~ 0
 BAT-M
 $Comp
 L LED_ARGB D1
@@ -1038,7 +1035,7 @@ Text GLabel 4950 5800 2    55   Input ~ 0
 GND
 Text GLabel 1400 5900 0    55   Input ~ 0
 LED-B
-Text GLabel 1400 6100 0    55   Input ~ 0
+Text GLabel 1300 6300 0    55   Input ~ 0
 LED-G
 Text GLabel 1400 6000 0    55   Input ~ 0
 LED-R
@@ -1264,9 +1261,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 7400 3850 7400
 Wire Wire Line
-	1850 7000 1350 7000
-Wire Wire Line
-	3800 6600 3300 6600
+	3800 7000 3300 7000
 Wire Wire Line
 	3300 7500 3850 7500
 Wire Wire Line
@@ -1278,9 +1273,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 6800 1250 6800
 Wire Wire Line
-	1300 6200 1850 6200
-Wire Wire Line
-	3300 6900 3800 6900
+	3300 6700 3800 6700
 Wire Wire Line
 	7300 2800 7100 2800
 Wire Wire Line
@@ -1592,4 +1585,12 @@ Wire Wire Line
 	11200 3850 11400 3850
 Wire Wire Line
 	11400 3850 11400 3650
+Wire Wire Line
+	1850 6300 1300 6300
+Text GLabel 1250 5800 0    55   Input ~ 0
+GND
+Wire Wire Line
+	1250 5800 1850 5800
+Wire Wire Line
+	3300 6400 3800 6400
 $EndSCHEMATC
